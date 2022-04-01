@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añade tu héroe</title>
+    <link rel="stylesheet" href="./css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <span>Descuentos 20% en figuras de acción</span>
+        </div>
+        <div class="bottom-header">
+            <span>Super Héroes</span>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h2>
+                    Añadí tu super!
+                </h2>
+
+                <p id="clue">
+                    Agregá tu personaje favorito completando las opciones
+                </p>
+            </header>
+        </section>
+ 
+        <!--
+            ahora arranco con el form
+            columna de la derecha
+        -->
+        <form id="form-right" action="/nombre-descrip">
+            <section>
+            <p>
+                <label for="nombre">*Nombre</label>
+            </p>
+            <p>
+                <input type="text" name="nombre" id="nombre">
+            </p>
+        </section>
+        <section>
+            <p>
+                <label for="fecha">Fecha</label>
+            </p>
+            <p>
+                <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                <input class="descrip" type="text" placeholder="Descripción" maxlength="550">
+            </p>
+        </section>
+        </form>
+        <form id="form-left" action="/especie-foto-list">
+
+        </form>
+    </main>
+
+
+
+
+
+
+
+</body>
+</html>

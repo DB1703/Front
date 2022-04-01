@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(249, 243, 233);
+}
+
+
+.hr {
+    margin-top: 3%;
+    height: 1.5px;
+    background-color: black;
+}
+
+.hr1 {
+    margin-top: 1%;
+    height: 1.5px;
+    background-color: black;
+}
+
+#imagen {
+    width: 200px;
+    padding-top: 1%;
+}
+
+#section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#b1 {
+    font-family: 'Perfect DOS VGA 437', sans-serif;
+    font-family: 'Perfect DOS VGA 437 Win', sans-serif;
+    font-size: 200%;
+    padding-top: 9%;
+    padding-right: 25%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+* {
+     margin: 0%;
+}
+
+
+#about {
+    font-family: 'Perect DOS VGA 437', sans-serif;
+    font-family: 'Perfect DOS VGA 437 Win', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+
+.links {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 710px;
+    width: fit-content;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 21%;
+}

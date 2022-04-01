@@ -1,0 +1,113 @@
+    #imagen   {
+        width: 100px;
+        position: relative;
+        left: 670px;
+        top: 20.91px;
+    }
+
+
+    .fondo {
+        background-color: #C4C4C4;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 35px;
+        color: #005677;
+        letter-spacing: 10px;
+    }
+
+
+    .datos {
+        background-color: #C4C4C4;
+        color: #005677;
+        margin-top: 10%;
+        text-indent: 2%;
+        font-family: 'Times New Roman';
+        letter-spacing: 3px; 
+    }
+
+
+    .formacion {
+        background-color: #C4C4C4;
+        color: #005677;
+        text-indent: 2%;
+        font-family: 'Times New Roman';
+        letter-spacing: 3px; 
+    }
+
+
+    .experiencia {
+        background-color: #C4C4C4;
+        color: #005677;
+        text-indent: 2%;
+        font-family: 'Times New Roman'; 
+        letter-spacing: 3px;
+    }
+
+
+      #lista1  {
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-weight: bold;
+        line-height: 145%;
+        font-size: 15px;
+    } 
+
+    #lista2  {
+        font-family: 'Times New Roman';
+        font-weight: bold;
+        line-height: 145%;
+        font-size: 15px;
+        margin-left: -19px;
+    } 
+
+
+     #lista3 {
+         font-family: 'Times New Roman';
+         font-size: 15px;
+         line-height: 145%;
+
+     }
+
+
+      #span  {
+        font-family: 'Times New Roman';
+        line-height: 145%; 
+        margin-left: 4%;
+        font-size: 15px; 
+    }
+    
+
+
+    .footer {
+        position: absolute;
+        background-color: #005677;
+        color: #ffff;
+        text-align: center;
+        width: 1440px;
+        top: 987px;
+        height: 37px;
+        left: 0px; 
+    }
+
+
+    b {
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-size: 20px;
+        
+
+    }
+    #imagen2 {
+        margin-left: 2%;
+        margin-top: 5px;
+    }
+
+    #imagen3 {
+        margin-left: 2%;
+        margin-top: 5px;
+    }
+
+    body {
+        background-color: white;
+    }
